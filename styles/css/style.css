@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../../assets/fonts/OpenSans-Regular.ttf");
+}
+body {
+  font-family: "OpenSans", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
