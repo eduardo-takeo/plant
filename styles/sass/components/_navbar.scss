@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  padding: 2rem 6rem;
+
+  img {
+    width: 40px;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 1.5rem;
+
+    li {
+      display: inline-block;
+      margin: 0 2.5rem;
+    }
+  }
+}

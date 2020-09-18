@@ -1,4 +1,9 @@
+@import "utils/variables";
+@import "utils/animations";
+
 @import "base/normalize";
 @import "base/typography";
 
+@import "components/buttons";
 @import "components/cover";
+@import "components/navbar";
