@@ -26,19 +26,50 @@ body {
   color: #000000;
 }
 
-.navbar__signup {
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff876;
+  width: 1000px;
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65rem;
+  background-color: red;
+}
+.main__title {
+  font-size: 5rem;
+  font-weight: 500;
+  padding: 7rem 0;
+}
+
+.btn {
   cursor: pointer;
   padding: 1rem 2rem;
   border-radius: 20px;
   border: none;
-  background: #000000;
-  color: #ffffff;
   font-size: 1.4rem;
   font-weight: 600;
 }
-.navbar__signup:hover {
-  background-color: #303235;
+.btn:hover {
   transition: all 0.4s;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn-black:hover {
+  background-color: #303235;
 }
 
 body {
@@ -54,9 +85,11 @@ body {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
   background-color: transparent;
   width: 100%;
   padding: 2rem 6rem;
+  background-color: blue;
 }
 .navbar img {
   width: 40px;
