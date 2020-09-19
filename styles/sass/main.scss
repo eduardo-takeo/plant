@@ -1,11 +1,11 @@
 @import "utils/variables";
 @import "utils/animations";
 
+@import "components/cover";
+@import "components/buttons";
+@import "components/navbar";
+
 @import "base/normalize";
 @import "base/typography";
 
 @import "pages/index";
-
-@import "components/buttons";
-@import "components/cover";
-@import "components/navbar";

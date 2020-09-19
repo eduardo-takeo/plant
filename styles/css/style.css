@@ -1,3 +1,64 @@
+body {
+  background: url("../../../assets/images/introduction_background_confetti.png") repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.btn:hover {
+  transition: all 1s;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn-black:hover {
+  background-color: #303235;
+}
+
+.btn-translucent {
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid #000000;
+}
+.btn-translucent:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 8rem;
+  padding: 0 6rem;
+}
+.navbar img {
+  width: 40px;
+}
+.navbar ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+.navbar ul li {
+  display: inline-block;
+  margin: 0 2.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +91,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 .main__container {
   display: flex;
@@ -44,63 +105,23 @@ body {
   flex-direction: column;
   align-items: center;
   width: 65rem;
-  background-color: red;
+  text-align: center;
+}
+.main__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
 .main__title {
   font-size: 5rem;
-  font-weight: 500;
-  padding: 7rem 0;
+  padding: 6rem 0;
+  line-height: 6rem;
 }
-
-.btn {
-  cursor: pointer;
-  padding: 1rem 2rem;
-  border-radius: 20px;
-  border: none;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-.btn:hover {
-  transition: all 0.4s;
-}
-
-.btn-black {
-  background-color: #000000;
-  color: #ffffff;
-}
-.btn-black:hover {
-  background-color: #303235;
-}
-
-body {
-  background: url("../../../assets/images/introduction_background_confetti.png") repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  background-color: transparent;
-  width: 100%;
-  padding: 2rem 6rem;
-  background-color: blue;
-}
-.navbar img {
-  width: 40px;
-}
-.navbar ul {
-  list-style: none;
-  font-size: 1.5rem;
-}
-.navbar ul li {
-  display: inline-block;
-  margin: 0 2.5rem;
+.main__description {
+  font-size: 1.8rem;
+  margin: 5rem;
+  width: 40rem;
+  color: #303235;
 }
 
 /*# sourceMappingURL=style.css.map */

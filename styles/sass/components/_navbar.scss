@@ -4,10 +4,10 @@
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: transparent;
+  background-color: $transparent;
   width: 100%;
-  padding: $navbar-height 6rem;
-  background-color: blue;
+  height: $navbar-height;
+  padding: 0 6rem;
 
   img {
     width: 40px;
