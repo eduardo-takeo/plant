@@ -37,7 +37,7 @@ body {
 }
 
 body {
-  background: url("file:///C:/Users/eduardo.higashi/Documents/personal/plant/assets/images/introduction_background_confetti.png") repeat center center fixed;
+  background: url("../../../assets/images/introduction_background_confetti.png") repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,22 +60,30 @@ body {
   padding: 1.2rem 4rem;
 }
 
-.btn-black {
+.btn--black {
   background-color: #000000;
   color: #ffffff;
 }
-.btn-black:hover {
+.btn--black:hover {
   background-color: #303235;
 }
 
-.btn-translucent {
+.btn--translucent {
   background-color: transparent;
   color: #000000;
   border: 2px solid #000000;
 }
-.btn-translucent:hover {
+.btn--translucent:hover {
   background-color: #000000;
   color: #ffffff;
+}
+
+.btn--blue {
+  background-color: #0780fe;
+  color: #ffffff;
+}
+.btn--blue:hover {
+  background-color: #303235;
 }
 
 .navbar {
@@ -131,6 +139,36 @@ body {
   margin: 5rem;
   width: 40rem;
   color: #303235;
+}
+
+.animated-image {
+  text-align: center;
+  height: 700px;
+  background: #e8e8ea;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: space-between;
+}
+.learn-more__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin: 2rem 0;
+  padding: 20px 44px;
+  border-radius: 8px;
+}
+.learn-more__card h2 {
+  padding: 25px 0;
+}
+.learn-more__card--version {
+  background: url("../../../assets/images/version.jpg");
+}
+.learn-more__card--collaboration {
+  background: url("../../../assets/images/collaboration.jpg");
 }
 
 .content {

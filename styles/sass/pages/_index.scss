@@ -34,3 +34,37 @@
     color: $color-gray;
   }
 }
+
+.animated-image {
+  text-align: center;
+  height: 700px;
+  background: #e8e8ea;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: space-between;
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+    margin: 2rem 0;
+    padding: 20px 44px;
+    border-radius: 8px;
+
+    h2 {
+      padding: 25px 0;
+    }
+
+    &--version {
+      background: url("../../../assets/images/version.jpg");
+    }
+
+    &--collaboration {
+      background: url("../../../assets/images/collaboration.jpg");
+    }
+  }
+}
