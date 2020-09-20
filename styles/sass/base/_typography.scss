@@ -9,3 +9,17 @@ body {
   font-size: 16px;
   color: $color-black;
 }
+
+.font {
+  &--small {
+    font-size: 1.5rem;
+  }
+
+  &--medium {
+    font-size: 3rem;
+  }
+
+  &--big {
+    font-size: 6rem;
+  }
+}

@@ -1,13 +1,19 @@
 .btn {
   cursor: pointer;
-  padding: 1rem 2rem;
   border-radius: 20px;
   border: none;
-  font-size: 1.4rem;
   font-weight: 600;
 
   &:hover {
-    transition: all 1s;
+    transition: all 0.8s;
+  }
+
+  &--small {
+    padding: 1rem 2rem;
+  }
+
+  &--big {
+    padding: 1.2rem 4rem;
   }
 }
 
