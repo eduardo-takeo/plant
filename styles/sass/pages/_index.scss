@@ -4,7 +4,17 @@
   align-items: center;
   text-align: center;
   margin-top: 4rem;
-  background-color: $color-secondary;
+
+  &__box--yellow {
+    position: absolute;
+    top: $navbar-height;
+    left: 10rem;
+    width: 135rem - 10rem;
+    height: 100vh;
+    z-index: -1;
+    padding: 10px;
+    background-color: $color-secondary;
+  }
 
   &__buttons {
     display: flex;

@@ -106,6 +106,15 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 4rem;
+}
+.main__box--yellow {
+  position: absolute;
+  top: 8rem;
+  left: 10rem;
+  width: 125rem;
+  height: 100vh;
+  z-index: -1;
+  padding: 10px;
   background-color: #fff876;
 }
 .main__buttons {
