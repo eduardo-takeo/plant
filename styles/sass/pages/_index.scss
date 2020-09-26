@@ -71,3 +71,45 @@
     }
   }
 }
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  color: $color-gray;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    min-height: 200px;
+    border: 0.5px solid $color-light-gray;
+    border-radius: 5px;
+    background: $color-white;
+
+    img {
+      width: 100px;
+      margin-right: 20px;
+    }
+
+    &__text {
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: $color-gray;
+      }
+    }
+  }
+}

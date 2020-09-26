@@ -32,7 +32,10 @@ body {
 .font--medium {
   font-size: 3rem;
 }
-.font--big {
+.font--large {
+  font-size: 4rem;
+}
+.font--xlarge {
   font-size: 6rem;
 }
 
@@ -172,6 +175,40 @@ body {
 }
 .learn-more__card--collaboration {
   background: url("../../../assets/images/collaboration.jpg");
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  color: #303235;
+}
+.benefits h1 {
+  margin-bottom: 40px;
+}
+.benefits__container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.benefits__card {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  min-height: 200px;
+  border: 0.5px solid #dee6eb;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.benefits__card img {
+  width: 100px;
+  margin-right: 20px;
+}
+.benefits__card__text h2 {
+  margin-bottom: 10px;
+}
+.benefits__card__text p {
+  color: #303235;
 }
 
 .content {
