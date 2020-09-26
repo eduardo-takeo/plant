@@ -150,6 +150,7 @@ body {
 .learn-more {
   display: flex;
   justify-content: space-between;
+  padding: 50px 0;
 }
 .learn-more__card {
   display: flex;
@@ -161,6 +162,7 @@ body {
   padding: 30px;
   width: 46%;
   border-radius: 8px;
+  box-shadow: 0 15px 50px #303235;
 }
 .learn-more__card h2 {
   padding: 25px 0;
