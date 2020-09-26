@@ -100,6 +100,10 @@ body {
   height: 8rem;
   padding: 0 12rem;
 }
+.navbar--solid {
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px #dee6eb;
+}
 .navbar img {
   width: 120px;
 }

@@ -3,6 +3,6 @@ window.addEventListener("scroll", toggleNavbarOpacity);
 
 function toggleNavbarOpacity() {
   window.scrollY == 0
-    ? (navbar.style.backgroundColor = "transparent")
-    : (navbar.style.backgroundColor = "#ffffff");
+    ? navbar.classList.remove("navbar--solid")
+    : navbar.classList.add("navbar--solid");
 }
