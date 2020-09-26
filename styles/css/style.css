@@ -158,7 +158,8 @@ body {
   align-items: center;
   color: #ffffff;
   margin: 2rem 0;
-  padding: 20px 44px;
+  padding: 30px;
+  width: 46%;
   border-radius: 8px;
 }
 .learn-more__card h2 {
@@ -175,7 +176,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 8rem auto;
-  width: 80%;
+  width: 1080px;
 }
 
 /*# sourceMappingURL=style.css.map */
